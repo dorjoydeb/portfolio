@@ -1,0 +1,61 @@
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.cerd {
+    width: 100%;
+    text-align: center;
+}
+.card-img, .card-img-top {
+    border-radius: 100px;
+    width: 181px;
+    height: 181px;
+
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 32px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 476px;
+    bottom: 0px;
+}
+.span2 {
+    position: absolute;
+    top: 304px;
+    height: 0px;
+    bottom: 0px;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 65%;
+    color: #fff;
+    text-align: center;
+    opacity: 1.5;
+    transition: opacity .15s ease;
+    left: 13%;
+}
